@@ -33,7 +33,7 @@ export class UnderwaterEffect {
         });
         
         this.waterSurface = new THREE.Mesh(waterSurfaceGeometry, waterSurfaceMaterial);
-        this.waterSurface.rotation.x = -Math.PI ;
+        this.waterSurface.rotation.x = -Math.PI /2 ;
         this.waterSurface.position.y = this.waterHeight;
         this.scene.add(this.waterSurface);
 
